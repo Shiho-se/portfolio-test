@@ -1,0 +1,8 @@
+@use "../global" as global;
+
+.p-header__link{
+    margin-bottom: 50px;
+    font-family: global.$ff-en;
+    font-weight: global.$fw-base-bold-en;
+    font-size: 32px;
+}

@@ -1,0 +1,28 @@
+//全体への指定はここに書く
+@use "../global" as global;
+
+body {
+    color: global.$color-text;
+    font-family: global.$ff-ja;
+    font-size: global.$fz-base;
+    font-weight: global.$fw-base-ja;
+    line-height: global.$lh-base;
+  
+      &.is-footer-sns-fixed {
+          padding-bottom: 75px;
+  
+      @include global.mq("sp") {
+        padding-bottom: 68px;
+      }
+      }
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+  }

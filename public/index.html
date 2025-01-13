@@ -33,36 +33,51 @@
         <!-- <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180"> -->
         <!-- <link rel="icon" type="image/png" href="./images/android-touch-icon.png" sizes="192x192"> -->
         <!-- css -->
-        <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
-        <!-- <link rel="stylesheet" href="css/style.css"> -->
+        <!-- <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css"> -->
+         <!-- googlefont -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+        <!-- originalcss -->
+        <link rel="stylesheet" href="assets/css/style.css">
         <!-- js -->
         <!-- <script type="text/javascript" src="/js/jqueryのjs.js"></script> -->
         <!-- <script type="text/javascript" src="js/そのページのcommon.js"></script> -->
     </head>
     <body>
         <header class="p-header">
-            <div class="p-header__inner l-inner">
+            <div class="p-header__inner">
+                <h1 class="c-header__logo">
+                    <!-- <a href=""><img src="./assets/img/logo.png" alt="S" /></a> -->
+                </h1>
                 <!-- ハンバーガーメニューってheaderだっけ？まいnVisualだっけ？ -->
+                <nav class="p-header__nav">
+                    <a href="#about" class="p-header__link">ABOUT</a>
+                    <a href="#works" class="p-header__link">WORKS</a>
+                    <a href="#skill" class="p-header__link">SKILL</a>
+                </nav>
             </div>
         </header>
 
         <main>
             <section class="p-mainVisual">
-                <div class="p-mainVisual__inner l-inner">
-                    
+                <div class="p-mainVisual__inner">
+                    <div class="p-mainVisual__img">
+                        <img src="./assets/img/mainvisual.png" alt="">
+                    </div>
                 </div>
             </section>
     
-            <section class="p-about">
-                <div class="p-about__inner l-inner">
-                    <h2 class="p-section__title p-about__title">ABOUT</h2>
+            <section id="about" class="p-about">
+                <div class="l-inner p-about__inner">
+                    <h2 class="c-section__title p-about__title">ABOUT</h2>
                     <!-- sectionタイトルはこれ以外にもクラスつけた方がいい？ -->
                      <div class="p-about__content">
                         <div class="p-about__img">
-                            <img src="" alt="">
+                            <img src="./assets/img/profile.png" alt="">
                         </div>
                         <p class="p-about__text">
-    
+                            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
                         </p>
                         <button class="c-button">
                             More
@@ -71,9 +86,9 @@
                 </div>
             </section>
     
-            <section class="p-works">
-                <div class="p-works__inner l-inner">
-                    <h2 class="p-section__title p-works__title">WORKS</h2>
+            <section id="works" class="p-works">
+                <div class="l-inner p-works__inner">
+                    <h2 class="c-section__title p-works__title">WORKS</h2>
                     <!-- <div class="p-works__contens"> -->
                         <!-- <a href="" class="works__content">
                             <div class="works__contentImage">
@@ -121,9 +136,9 @@
                 </div>
             </section>
     
-            <section class="p-skill">
-                <div class="p-skill__inner l-inner">
-                    <h2 class="p-section__title p-skill__title">SKILL</h2>
+            <section id="skill" class="p-skill">
+                <div class="l-inner p-skill__inner">
+                    <h2 class="c-section__title p-skill__title">SKILL</h2>
                     <div class="p-skill__content">
                         <div class="p-skill__list">
                             <h3 class="p-skill__title">HTML</h3>
@@ -152,7 +167,7 @@
         </main>
 
         <footer class="p-footer">
-            <div class="p-footer__innner l-inner">
+            <div class="l-inner p-footer__innner">
                 <div class="p-footer__link">
                     <a href="" class="p-footer__link p-link-x">
                         <img src="" alt="">

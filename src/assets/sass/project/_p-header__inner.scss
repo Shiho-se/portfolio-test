@@ -1,0 +1,12 @@
+@use "../global" as global;
+@use "sass:map";
+
+.p-header__inner{
+    // display: flex;
+    background-color: global.$color-primary;
+    position: fixed; /* 画面に固定して追従させます */
+    left: 0;
+    z-index: map.get(global.$layer, header);
+    width: 80px;
+	height: 100vh;
+}

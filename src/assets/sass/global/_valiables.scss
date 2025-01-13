@@ -1,0 +1,63 @@
+// 色
+// $accent-color: #01b3a7; // アクセントカラー
+// $accent-color-active: #00aca0; // アクセントカラー（アクティブ）
+// $link-color: #1592e6; // リンクカラー
+
+//色-ライトモード
+$color-primary: #EDDEC4;
+$color-secondary:#E7D4B0;
+$color-tertiary:#E1C99C;
+$color-text:#262724;
+
+//色-ダークモード
+$color-primary-dark: #BDBFBA;
+$color-secondary-dark:#8B8E85;
+$color-tertiary-dark:#575A53;
+$color-text-dark:#EDDEC4;
+
+// フォント
+// $ff-ja: "Font Awesome 5 Free", sans-serif; // Font Awesome
+$ff-ja: "Noto Sans JP", serif; // Font Awesome
+// $ff-en: "Lato", sans-serif; // 英字
+$ff-en: "Cormorant", serif; // 英字
+
+// $ff-base: "Meiryo", "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif; // 日本語標準
+$fz-base: 16px; // ベースフォントサイズ
+$fw-base-ja: 400; // jaベースフォントウェイト
+$fw-base-bold-ja: 700;
+$fw-base-en: 500; // enベースフォントウェイト
+$fw-base-bold-en: 800;
+$lh-base: 1.6; // ベース行間
+
+// レイアウト
+// $inner-width: 1100px; // インナー幅サイズ
+$inner-width: 1040px; // インナー幅サイズ
+/* これどうしよう↓===================================== */
+$sp-width: 768px; // スマホサイズ
+
+// ブレークポイント
+$breakpoints: (
+  // スマホ以下の場合
+  "sp": "screen and (max-width: #{$sp-width - 1px})",
+  // タブレット以下の場合
+  "tab": "screen and (max-width: #{$inner-width - 1px})",
+  // タブレット以上の場合
+  "pc": "screen and (min-width: #{$inner-width})"
+);
+
+// 重なり順の定義　z-index
+$layer: (
+  // ローディング
+  loading: 300,
+  // モーダル
+  modal: 100,
+  // ドロワー
+  drawer: 40,
+  // フローティング
+  floating: 30,
+  // ヘッダー
+  header: 20,
+  // フッター
+  footer: 10,
+  default: 1
+);
