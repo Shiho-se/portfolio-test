@@ -1,0 +1,7 @@
+@use "../global" as global;
+
+.p-skill__inner{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}

@@ -1,0 +1,229 @@
+@charset "UTF-8";
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+#root, #__next {
+  isolation: isolate;
+}
+
+/* これどうしよう↓===================================== */
+body {
+  color: #262724;
+  font-family: "Noto Sans JP", serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+body.is-footer-sns-fixed {
+  padding-bottom: 75px;
+}
+@media screen and (max-width: 767px) {
+  body.is-footer-sns-fixed {
+    padding-bottom: 68px;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  padding-inline-start: 0px;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.l-inner {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (min-width: 1040px) {
+  .l-inner {
+    max-width: 1040px;
+  }
+}
+@media screen and (max-width: 1039px) {
+  .l-inner {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .l-inner {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+.c-header__logo {
+  width: 80px;
+  height: 80px;
+}
+
+.c-section__title {
+  font-family: "Cormorant", serif;
+  font-size: 96px;
+  flex: 1;
+  text-align: center;
+}
+
+.c-button {
+  display: block;
+  width: 120px;
+  height: 40px;
+  font-family: "Cormorant", serif;
+  font-weight: 800;
+  border-radius: 60px;
+  border: 2px solid #262724;
+  background-color: #fff;
+  margin-top: 60px;
+  margin-left: auto;
+}
+
+.p-header__inner {
+  background-color: #EDDEC4;
+  position: fixed; /* 画面に固定して追従させます */
+  left: 0;
+  z-index: 20;
+  width: 80px;
+  height: 100vh;
+}
+
+.p-header__link {
+  margin-bottom: 50px;
+  font-family: "Cormorant", serif;
+  font-weight: 800;
+  font-size: 32px;
+}
+
+.p-header__nav {
+  writing-mode: vertical-rl;
+  position: fixed;
+  top: 32%;
+  left: 12px;
+  z-index: 100;
+}
+
+.p-mainVisual__img img {
+  width: 100%;
+  height: 100vh;
+}
+
+.p-mainVisual__inner {
+  padding-left: 0 !important;
+}
+
+.p-about__inner {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.p-about__content {
+  flex: 1;
+  margin-top: 50px;
+  margin-bottom: 120px;
+}
+
+.p-works {
+  background: #E1C99C;
+}
+
+.p-works__inner {
+  display: flex;
+  align-items: center;
+}
+
+.p-works__contents {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  flex: 1;
+}
+
+.p-works__item {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.p-works__content-image {
+  max-width: 50%;
+}
+
+.p-skill__inner {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.p-skill__content {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  flex: 1;
+}
+
+.p-skill__list {
+  margin-bottom: 45px;
+}
+
+.p-skill__name {
+  margin-bottom: 8px;
+}
+
+.p-footer {
+  background: #E1C99C;
+}
+
+.p-footer__innner {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.p-footer__link {
+  display: block;
+  width: 53px;
+  height: 53px;
+}
+
+.p-footer__content {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+}

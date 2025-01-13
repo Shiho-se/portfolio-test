@@ -1,10 +1,14 @@
 @use "../global" as global;
 
 .c-button{
+    display: block;
     width: 120px;
     height: 40px;
     font-family: global.$ff-en;
     font-weight: global.$fw-base-bold-en;
     border-radius: 60px;
     border: 2px solid global.$color-text;
+    background-color: #fff;
+    margin-top: 60px;
+    margin-left: auto;//右寄せ
 }
