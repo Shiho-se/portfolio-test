@@ -46,92 +46,120 @@
     </head>
     <body>
         <header class="p-header">
-            <div class="p-header__inner l-inner">
-                <h2 class="header__section-title">
-                    works
-                </h2>
+            <div class="p-header__inner">
+                <h1 class="c-header__logo">
+                    <!-- <a href=""><img src="./assets/img/logo.png" alt="S" /></a> -->
+                </h1>
                 <!-- ハンバーガーメニューってheaderだっけ？まいnVisualだっけ？ -->
+                <nav class="p-header__nav">
+                    <a href="#about" class="p-header__link">ABOUT</a>
+                    <a href="#works" class="p-header__link">WORKS</a>
+                    <a href="#skill" class="p-header__link">SKILL</a>
+                </nav>
             </div>
         </header>
 
         <main>
+            <div class="c-workscase__title">
+                <h2 class="c-sectionpage__title l-position__static">WORKS</h2>
+            </div>
             <div class="p-workscase">
-                <div class="p-workscase__inner inner">
-                    <div class="p-workscase__content">
-                        <div class="p-workscase__overview">
-                            <div class="p-workscase__overview-image">
-                                <img src="" alt="">
-                            </div>
-                            <div class="p-workscase__overview-description">
-                                <p class="workscase__overview-text">制作期間:３週間</p>
-                                <p class="workscase__overview-text">使用技術:HTML/CSS/jQuery</p>
-                                <p class="workscase__overview-text">URL https://XXXXXXX.jp</p>
-                                <p class="workscase__overview-text">PASS 1234</p>
-                                <p class="workscase__overview-text">github https://github.com/sei693/react-todoapp-firebase</p>
-                            </div>
+                <div class="p-workscase__inner l-inner">
+                    <div class="p-workscase__overview l-content__padding">
+                        <div class="p-workscase__image">
+                            <img src="./assets/img/workscase1.png" alt="">
                         </div>
-                        <div class="p-workscase__detail">
-                            <!-- 工夫したところなど入れる -->
+                        <div class="p-workscase__description">
+                            <p class="workscase__overview-text">制作期間:３週間</p>
+                            <p class="workscase__overview-text">使用技術:HTML/CSS/jQuery</p>
+                            <p class="workscase__overview-text">URL https://XXXXXXX.jp</p>
+                            <p class="workscase__overview-text">PASS 1234</p>
+                            <p class="workscase__overview-text">github https://github.com/sei693/react-todoapp-firebase</p>
                         </div>
                     </div>
-                    <div class="p-workscase__another">
-                        <p class="p-workscase__another-title">
+                </div>
+                <div class="l-color__inner">
+                    <div class="p-workscase__inner l-inner">
+                        <div class="p-workscase__detail l-content__padding">
+                            <p>ここに工夫したところを入れます</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-workscase__inner l-inner">
+                    <div class="p-workscase__another l-content__padding">
+                        <p class="p-workscase__another-title l-font-h3">
                             他の制作物
                         </p>
-                        <ul class="p-workscase__lists">
-                            <li class="p-workscase__list">
-                                <a href="p-workscase__item">
-                                    <div class="p-workscase__image">
-                                        <img src="" alt="">
-                                    </div>
-                                    <div class="p-workscase__title">Todoアプリ</div>
-                                </a>
-                            </li>
-                            <li class="p-workscase__list">
-                                <a href="p-workscase__item">
-                                    <div class="p-workscase__image">
-                                        <img src="" alt="">
-                                    </div>
-                                    <div class="p-workscase__title">Todoアプリ</div>
-                                </a>
-                            </li>
-                            <li class="p-workscase__list">
-                                <a href="p-workscase__item">
-                                    <div class="p-workscase__image">
-                                        <img src="" alt="">
-                                    </div>
-                                    <div class="p-workscase__title">Todoアプリ</div>
-                                </a>
-                            </li>
-                            <li class="p-workscase__list">
-                                <a href="p-workscase__item">
-                                    <div class="p-workscase__image">
-                                        <img src="" alt="">
-                                    </div>
-                                    <div class="p-workscase__title">Todoアプリ</div>
-                                </a>
-                            </li>
-                            <li class="p-workscase__list">
-                                <a href="p-workscase__item">
-                                    <div class="p-workscase__image">
-                                        <img src="" alt="">
-                                    </div>
-                                    <div class="p-workscase__title">Todoアプリ</div>
-                                </a>
-                            </li>
-                            <li class="p-workscase__list">
-                                <a href="p-workscase__item">
-                                    <div class="p-workscase__image">
-                                        <img src="" alt="">
-                                    </div>
-                                    <div class="p-workscase__title">Todoアプリ</div>
-                                </a>
-                            </li>
-                        </ul>
-
+                        <div class="p-workspage">
+                            <ul class="l-inner p-workspage__inner">
+                                <li class="p-workspage__list">
+                                    <a href="#" class="p-workspage__item">
+                                        <div class="p-workspage__image">
+                                            <img src="./assets/img/works-demo.png" alt="">
+                                        </div>
+                                        <div class="p-workspage__title">Todoアプリ</div>
+                                    </a>
+                                </li>
+                                <li class="p-workspage__list">
+                                    <a href="#" class="p-workspage__item">
+                                        <div class="p-workspage__image">
+                                            <img src="./assets/img/works-demo.png" alt="">
+                                        </div>
+                                        <div class="p-workspage__title">Todoアプリ</div>
+                                    </a>
+                                </li>
+                                <li class="p-workspage__list">
+                                    <a href="#" class="p-workspage__item">
+                                        <div class="p-workspage__image">
+                                            <img src="./assets/img/works-demo.png" alt="">
+                                        </div>
+                                        <div class="p-workspage__title">Todoアプリ</div>
+                                    </a>
+                                </li>
+                                <li class="p-workspage__list">
+                                    <a href="#" class="p-workspage__item">
+                                        <div class="p-workspage__image">
+                                            <img src="./assets/img/works-demo.png" alt="">
+                                        </div>
+                                        <div class="p-workspage__title">Todoアプリ</div>
+                                    </a>
+                                </li>
+                                <li class="p-workspage__list">
+                                    <a href="#" class="p-workspage__item">
+                                        <div class="p-workspage__image">
+                                            <img src="./assets/img/works-demo.png" alt="">
+                                        </div>
+                                        <div class="p-workspage__title">Todoアプリ</div>
+                                    </a>
+                                </li>
+                                <li class="p-workspage__list">
+                                    <a href="#" class="p-workspage__item">
+                                        <div class="p-workspage__image">
+                                            <img src="./assets/img/works-demo.png" alt="">
+                                        </div>
+                                        <div class="p-workspage__title">Todoアプリ</div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
         </main>
+        <footer class="p-footer">
+            <div class="l-inner p-footer__innner">
+                <small class="c-footer__text">
+                    All Rights Reserved 2025 ©︎ ***MYNAME***
+                </small>
+                <div class="p-footer__content">
+                    <a href="" class="p-footer__link p-link-x">
+                        <img src="./assets/img/github-mark.png" alt="">
+                    </a>
+                    <a href="" class="p-footer__link p-link-github">
+                        <img src="./assets/img/logo-black.png" alt="">
+                    </a>
+                </div>
+             </div>
+        </footer>
     </body>
 </html>

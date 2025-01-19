@@ -1,0 +1,7 @@
+@use "../global" as global;
+
+.p-aboutpage__title{
+    font-size: 20px;
+    font-weight: global.$fw-base-bold-ja;
+    margin-bottom: 16px;
+}

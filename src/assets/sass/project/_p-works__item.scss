@@ -1,0 +1,8 @@
+@use "../global" as global;
+
+.p-works__item{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 40px;
+}

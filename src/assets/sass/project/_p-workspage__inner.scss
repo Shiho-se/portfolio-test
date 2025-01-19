@@ -1,0 +1,9 @@
+@use "../global" as global;
+
+.p-workspage__inner{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 40px;
+    text-align: center;
+    padding-bottom: calc(200px - 40px);
+}

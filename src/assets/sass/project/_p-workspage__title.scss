@@ -1,0 +1,6 @@
+@use "../global" as global;
+
+.p-workspage__title{
+    margin-top: 30px;
+    font-weight: global.$fw-base-bold-ja;
+}

@@ -1,7 +1,3 @@
-// @import "object/project/_articles";
-// @import "object/project/_comments";
-// @import "object/project/_gallery";
-// @import "object/project/_profile";
 @use "p-header__inner";
 @use "p-header__link";
 @use "p-header__nav";
@@ -23,5 +19,12 @@
 @use "p-footer__innner";
 @use "p-footer__link";
 @use "p-footer__content";
-
+@use "p-aboutpage__content";
+@use "p-aboutpage__title";
+@use "p-sectionpage__inner";
+@use "p-workspage__inner";
+@use "p-workspage__list";
+@use "p-workspage__title";
+@use "p-workscase__overview";
+@use "p-workscase__image";
 

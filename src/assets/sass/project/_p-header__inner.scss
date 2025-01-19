@@ -3,7 +3,8 @@
 
 .p-header__inner{
     // display: flex;
-    background-color: global.$color-primary;
+    background-color: global.$color-primary;//確認用
+    // background-color: #fff;
     position: fixed; /* 画面に固定して追従させます */
     left: 0;
     z-index: map.get(global.$layer, header);

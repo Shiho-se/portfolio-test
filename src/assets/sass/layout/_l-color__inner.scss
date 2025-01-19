@@ -1,0 +1,6 @@
+@use "../global" as global;
+
+.l-color__inner{
+    width: 100%;
+    background-color: global.$color-primary;
+}

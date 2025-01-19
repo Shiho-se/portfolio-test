@@ -1,0 +1,26 @@
+@use "../global" as global;
+
+
+.p-sectionpage__inner {
+    // width: global.$inner-width;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+    @include global.mq("pc") {
+        // padding-left: 104px;
+        max-width: 1040px;
+        }
+
+
+    @include global.mq('tab') {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    @include global.mq('sp') {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
+

@@ -1,0 +1,10 @@
+@use "../global" as global;
+
+.c-sectionpage__title{
+    font-family: global.$ff-en;
+    font-size: 64px;
+    position: absolute;
+    top: 100px;
+    left: calc(80px + 56px);
+
+}

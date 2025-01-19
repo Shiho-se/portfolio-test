@@ -1,0 +1,13 @@
+@use "../global" as global;
+
+.p-aboutpage__content{
+    max-width: 800px;
+    // border: 1px solid #333; 確認用
+    padding-top: 40px;
+    padding-bottom: 60px;
+    margin: 0 auto;
+
+    &.l-text-center{
+        font-size: 24px;
+    }
+}
