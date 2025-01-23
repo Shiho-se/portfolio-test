@@ -1,0 +1,9 @@
+@use "../global" as global;
+
+.p-color-change__toggle{
+    width: 40px;
+    height: 80px;
+    background-color: global.$color-text;
+    border-radius: 20px 20px 20px 20px;
+    position: relative;
+}

@@ -1,0 +1,12 @@
+@use "../global" as global;
+
+.p-color-change__button{
+    width: 30px;
+    height: 30px;
+    background-color: global.$color-primary;
+    border-radius: 50%;
+    position: absolute;
+    top: 4px;
+    left: 5px;
+
+}

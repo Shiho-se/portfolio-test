@@ -51,6 +51,14 @@ h6 {
 
 /* これどうしよう↓===================================== */
 
+.drawer-content {
+	display: none;
+}
+
+.drawer-icon {
+	display: none;
+}
+
 body {
 	color: #262724;
 	font-family: "Noto Sans JP", serif;
@@ -111,8 +119,7 @@ ul li {
 }
 
 .c-header__logo {
-	height: 80px;
-	width: 80px;
+	padding-top: 30px;
 }
 
 .c-section__title {
@@ -155,10 +162,23 @@ ul li {
 	padding: 100px 0 0 136px;
 }
 
+.c-color-change {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
 .p-header__inner {
-	background-color: #EDDEC4;
+	align-items: center;
+	background-color: #fff;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
 	height: 100vh;
+	justify-content: center;
 	left: 0;
+	opacity: 0.7;
 	position: fixed; /* 画面に固定して追従させます */
 	width: 80px;
 	z-index: 20;
@@ -172,9 +192,6 @@ ul li {
 }
 
 .p-header__nav {
-	left: 12px;
-	position: fixed;
-	top: 32%;
 	writing-mode: vertical-rl;
 	z-index: 100;
 }
@@ -318,6 +335,24 @@ ul li {
 
 .p-workscase__image {
 	flex-basis: 560px;
+}
+
+.p-color-change__toggle {
+	background-color: #262724;
+	border-radius: 20px 20px 20px 20px;
+	height: 80px;
+	position: relative;
+	width: 40px;
+}
+
+.p-color-change__button {
+	background-color: #EDDEC4;
+	border-radius: 50%;
+	height: 30px;
+	left: 5px;
+	position: absolute;
+	top: 4px;
+	width: 30px;
 }
 
 @media screen and (min-width: 1040px) {

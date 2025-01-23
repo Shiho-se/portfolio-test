@@ -2,9 +2,17 @@
 @use "sass:map";
 
 .p-header__inner{
-    // display: flex;
-    background-color: global.$color-primary;//確認用
-    // background-color: #fff;
+    //中のコンテンツのレイアウト
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+
+    //画面左に固定するレイアウト
+    // background-color: global.$color-primary;//確認用
+    background-color: #fff;
+    opacity: 0.7;
     position: fixed; /* 画面に固定して追従させます */
     left: 0;
     z-index: map.get(global.$layer, header);
